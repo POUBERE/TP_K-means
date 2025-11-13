@@ -1,0 +1,43 @@
+================================================================================
+RAPPORT D'ANALYSE DES CLUSTERS - K-MEANS
+================================================================================
+
+Nombre de clusters : 2
+Nombre d'observations : 2,111
+Date d'analyse : 2025-10-18 19:20:26
+
+MÉTRIQUES DE PERFORMANCE
+--------------------------------------------------------------------------------
+Inertie : 29,990.77
+Score de Silhouette : 0.1894
+Indice de Davies-Bouldin : 2.5363
+Adjusted Rand Index : 0.0884
+Normalized Mutual Information : 0.1839
+
+PROFILS DES CLUSTERS
+================================================================================
+
+CLUSTER 0 (1536 individus - 72.8%)
+--------------------------------------------------------------------------------
+Âge moyen : 25.6 ans
+Taille moyenne : 1.72 m
+Poids moyen : 96.9 kg
+Activité physique : 0.97/3
+Consommation d'eau : 2.10 L/jour
+
+Catégorie dominante : Obesity_Type_III (21.1%)
+
+================================================================================
+
+CLUSTER 1 (575 individus - 27.2%)
+--------------------------------------------------------------------------------
+Âge moyen : 21.0 ans
+Taille moyenne : 1.64 m
+Poids moyen : 59.1 kg
+Activité physique : 1.12/3
+Consommation d'eau : 1.75 L/jour
+
+Catégorie dominante : Normal_Weight (36.9%)
+
+================================================================================
+

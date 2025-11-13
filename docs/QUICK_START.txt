@@ -1,0 +1,135 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     TP 2 : K-MEANS CLUSTERING                                ║
+║                     GUIDE DE DÉMARRAGE RAPIDE                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📋 ÉTAPES RAPIDES
+═════════════════════════════════════════════════════════════════════════════
+
+1️⃣  INSTALLER LES BIBLIOTHÈQUES
+────────────────────────────────────────────────────────────────────────────
+   Ouvrez un terminal/invite de commande et exécutez :
+
+   pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+
+
+2️⃣  PRÉPARER LE DATASET
+────────────────────────────────────────────────────────────────────────────
+   Téléchargez le fichier CSV depuis :
+   
+   🔗 Kaggle : https://www.kaggle.com/datasets/aravindpcoder/obesity-or-cvd-risk
+   
+   Placez le fichier "ObesityDataSet_raw_and_data_sinthetic.csv" dans le 
+   MÊME DOSSIER que le notebook.
+
+
+3️⃣  LANCER JUPYTER
+────────────────────────────────────────────────────────────────────────────
+   Dans le dossier contenant le notebook, exécutez :
+
+   jupyter notebook TP2_KMeans_Obesite.ipynb
+
+
+4️⃣  CONFIGURER LE CHEMIN DU FICHIER
+────────────────────────────────────────────────────────────────────────────
+   Dans la cellule 2.1 du notebook, utilisez une de ces options :
+
+   ✅ OPTION 1 (Recommandée) - Chemin relatif :
+   df = pd.read_csv('ObesityDataSet_raw_and_data_sinthetic.csv')
+
+   ✅ OPTION 2 - Chemin absolu :
+   df = pd.read_csv('C:/chemin/complet/vers/fichier.csv')
+
+   ✅ OPTION 3 - Sélection manuelle (Windows) :
+   Décommentez les lignes avec tkinter dans la cellule
+
+
+5️⃣  EXÉCUTER LE NOTEBOOK
+────────────────────────────────────────────────────────────────────────────
+   Exécutez chaque cellule avec : Shift + Enter
+   
+   OU
+   
+   Menu : Cell → Run All (exécuter tout d'un coup)
+
+
+═════════════════════════════════════════════════════════════════════════════
+📁 STRUCTURE DES FICHIERS REQUISE
+═════════════════════════════════════════════════════════════════════════════
+
+votre_dossier/
+│
+├── TP2_KMeans_Obesite.ipynb                    ← Le notebook
+├── ObesityDataSet_raw_and_data_sinthetic.csv   ← Le dataset (à télécharger)
+├── README.md                                    ← Documentation complète
+└── QUICK_START.txt                              ← Ce fichier
+
+
+═════════════════════════════════════════════════════════════════════════════
+⚠️  PROBLÈMES FRÉQUENTS
+═════════════════════════════════════════════════════════════════════════════
+
+❌ "FileNotFoundError: No such file"
+   → Le fichier CSV n'est pas dans le bon dossier
+   → Vérifiez le nom exact du fichier (avec tirets bas)
+   → Essayez un chemin absolu
+
+❌ "ModuleNotFoundError: No module named 'sklearn'"
+   → Installez : pip install scikit-learn
+
+❌ Les graphiques ne s'affichent pas
+   → Vérifiez que %matplotlib inline est dans la première cellule
+
+❌ "Memory Error"
+   → Fermez d'autres applications
+   → Réduisez K_range de range(2,16) à range(2,10)
+
+
+═════════════════════════════════════════════════════════════════════════════
+🎯 CE QUE VOUS ALLEZ OBTENIR
+═════════════════════════════════════════════════════════════════════════════
+
+✅ Un modèle K-means optimisé
+✅ 20+ visualisations (PCA, t-SNE, heatmaps...)
+✅ Profils détaillés des clusters
+✅ Métriques d'évaluation complètes
+✅ Comparaison avec catégories médicales
+✅ Fichiers de sortie (CSV + rapport TXT)
+
+
+═════════════════════════════════════════════════════════════════════════════
+⏱️  TEMPS D'EXÉCUTION ESTIMÉ
+═════════════════════════════════════════════════════════════════════════════
+
+📊 Analyse exploratoire : ~2 minutes
+🔍 Détermination K optimal : ~3 minutes
+🚀 Entraînement : ~30 secondes
+📈 Évaluation et visualisations : ~2 minutes
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 TOTAL : ~8 minutes (exécution complète)
+
+
+═════════════════════════════════════════════════════════════════════════════
+💡 CONSEILS
+═════════════════════════════════════════════════════════════════════════════
+
+1. Lisez les cellules markdown avant d'exécuter le code
+2. Observez les graphiques et interprétations
+3. N'hésitez pas à modifier les paramètres
+4. Sauvegardez régulièrement votre notebook
+
+
+═════════════════════════════════════════════════════════════════════════════
+📞 BESOIN D'AIDE ?
+═════════════════════════════════════════════════════════════════════════════
+
+1. Consultez README.md pour la documentation complète
+2. Lisez le rapport Word pour la méthodologie
+3. Vérifiez les commentaires dans le code
+
+
+═════════════════════════════════════════════════════════════════════════════
+
+🚀 Prêt ? Lancez Jupyter et bon clustering ! 🎉
+
+═════════════════════════════════════════════════════════════════════════════
